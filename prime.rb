@@ -5,7 +5,6 @@ def prime?(n)
     if (2...n-1).any? do |i| 
       n % i == 0
         return false
-   end
-  end
+    end
   return true
 end
