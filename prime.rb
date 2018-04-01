@@ -1,4 +1,5 @@
 def prime?(num)
+  array = []
   array == (2..num-1).to_a 
     array.each do |n|
       if num <= 1 || num % n == 0 
