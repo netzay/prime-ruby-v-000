@@ -4,8 +4,8 @@ def prime?(n)
   return true if n == 3 || n == 2 
     if (2...n-1).any? do |i| 
       n % i == 0
-      false
+      return false
     else
-      true
+      return true
     end
 end
